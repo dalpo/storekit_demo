@@ -13,15 +13,14 @@
 		D665A440182D03E0006EA387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D665A43E182D03E0006EA387 /* InfoPlist.strings */; };
 		D665A442182D03E0006EA387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D665A441182D03E0006EA387 /* main.m */; };
 		D665A446182D03E0006EA387 /* MGAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D665A445182D03E0006EA387 /* MGAAppDelegate.m */; };
-		D665A449182D03E0006EA387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D665A447182D03E0006EA387 /* Main.storyboard */; };
-		D665A44C182D03E0006EA387 /* MGAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D665A44B182D03E0006EA387 /* MGAMasterViewController.m */; };
-		D665A44F182D03E0006EA387 /* MGADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D665A44E182D03E0006EA387 /* MGADetailViewController.m */; };
 		D665A451182D03E0006EA387 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D665A450182D03E0006EA387 /* Images.xcassets */; };
 		D665A458182D03E0006EA387 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665A457182D03E0006EA387 /* XCTest.framework */; };
 		D665A459182D03E0006EA387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665A435182D03E0006EA387 /* Foundation.framework */; };
 		D665A45A182D03E0006EA387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D665A439182D03E0006EA387 /* UIKit.framework */; };
 		D665A462182D03E0006EA387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D665A460182D03E0006EA387 /* InfoPlist.strings */; };
 		D665A464182D03E0006EA387 /* MyGreatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D665A463182D03E0006EA387 /* MyGreatAppTests.m */; };
+		D665A470182D2577006EA387 /* MGAStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D665A46E182D2577006EA387 /* MGAStoreViewController.m */; };
+		D665A471182D2577006EA387 /* MGAStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D665A46F182D2577006EA387 /* MGAStoreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,17 +44,15 @@
 		D665A443182D03E0006EA387 /* MyGreatApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyGreatApp-Prefix.pch"; sourceTree = "<group>"; };
 		D665A444182D03E0006EA387 /* MGAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAAppDelegate.h; sourceTree = "<group>"; };
 		D665A445182D03E0006EA387 /* MGAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAAppDelegate.m; sourceTree = "<group>"; };
-		D665A448182D03E0006EA387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D665A44A182D03E0006EA387 /* MGAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAMasterViewController.h; sourceTree = "<group>"; };
-		D665A44B182D03E0006EA387 /* MGAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAMasterViewController.m; sourceTree = "<group>"; };
-		D665A44D182D03E0006EA387 /* MGADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGADetailViewController.h; sourceTree = "<group>"; };
-		D665A44E182D03E0006EA387 /* MGADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGADetailViewController.m; sourceTree = "<group>"; };
 		D665A450182D03E0006EA387 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D665A456182D03E0006EA387 /* MyGreatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGreatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D665A457182D03E0006EA387 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D665A45F182D03E0006EA387 /* MyGreatAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyGreatAppTests-Info.plist"; sourceTree = "<group>"; };
 		D665A461182D03E0006EA387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D665A463182D03E0006EA387 /* MyGreatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGreatAppTests.m; sourceTree = "<group>"; };
+		D665A46D182D2577006EA387 /* MGAStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAStoreViewController.h; sourceTree = "<group>"; };
+		D665A46E182D2577006EA387 /* MGAStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGAStoreViewController.m; sourceTree = "<group>"; };
+		D665A46F182D2577006EA387 /* MGAStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGAStoreViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +112,9 @@
 		D665A43B182D03E0006EA387 /* MyGreatApp */ = {
 			isa = PBXGroup;
 			children = (
+				D665A472182D2581006EA387 /* Controllers */,
 				D665A444182D03E0006EA387 /* MGAAppDelegate.h */,
 				D665A445182D03E0006EA387 /* MGAAppDelegate.m */,
-				D665A447182D03E0006EA387 /* Main.storyboard */,
-				D665A44A182D03E0006EA387 /* MGAMasterViewController.h */,
-				D665A44B182D03E0006EA387 /* MGAMasterViewController.m */,
-				D665A44D182D03E0006EA387 /* MGADetailViewController.h */,
-				D665A44E182D03E0006EA387 /* MGADetailViewController.m */,
 				D665A450182D03E0006EA387 /* Images.xcassets */,
 				D665A43C182D03E0006EA387 /* Supporting Files */,
 			);
@@ -155,6 +148,24 @@
 				D665A460182D03E0006EA387 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D665A472182D2581006EA387 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D665A473182D2596006EA387 /* StoreViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D665A473182D2596006EA387 /* StoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D665A46D182D2577006EA387 /* MGAStoreViewController.h */,
+				D665A46E182D2577006EA387 /* MGAStoreViewController.m */,
+				D665A46F182D2577006EA387 /* MGAStoreViewController.xib */,
+			);
+			path = StoreViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Develon srl";
 				TargetAttributes = {
+					D665A431182D03E0006EA387 = {
+						DevelopmentTeam = 46975DLBY2;
+					};
 					D665A455182D03E0006EA387 = {
 						TestTargetID = D665A431182D03E0006EA387;
 					};
@@ -236,7 +250,7 @@
 			files = (
 				D665A451182D03E0006EA387 /* Images.xcassets in Resources */,
 				D665A440182D03E0006EA387 /* InfoPlist.strings in Resources */,
-				D665A449182D03E0006EA387 /* Main.storyboard in Resources */,
+				D665A471182D2577006EA387 /* MGAStoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D665A470182D2577006EA387 /* MGAStoreViewController.m in Sources */,
 				D665A446182D03E0006EA387 /* MGAAppDelegate.m in Sources */,
-				D665A44C182D03E0006EA387 /* MGAMasterViewController.m in Sources */,
 				D665A442182D03E0006EA387 /* main.m in Sources */,
-				D665A44F182D03E0006EA387 /* MGADetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +300,6 @@
 				D665A43F182D03E0006EA387 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D665A447182D03E0006EA387 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D665A448182D03E0006EA387 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		D665A460182D03E0006EA387 /* InfoPlist.strings */ = {
@@ -385,10 +390,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrea Dal Ponte (JL3XEK44Q8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyGreatApp/MyGreatApp-Prefix.pch";
 				INFOPLIST_FILE = "MyGreatApp/MyGreatApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37A5E8D2-6E55-4F2B-A05B-DC22DD327982";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,10 +407,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrea Dal Ponte (JL3XEK44Q8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyGreatApp/MyGreatApp-Prefix.pch";
 				INFOPLIST_FILE = "MyGreatApp/MyGreatApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37A5E8D2-6E55-4F2B-A05B-DC22DD327982";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
